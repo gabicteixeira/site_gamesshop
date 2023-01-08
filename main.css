@@ -8,19 +8,21 @@ header,
 section h2,
 section h3,
 form button { 
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:900;
 }
 
 body,
 input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    text-align:justify;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #f6f641d8;
+    color: #3d39be;
 }
 
 
@@ -31,7 +33,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #3d39be;
     text-decoration: none;
 }
 
@@ -41,6 +43,11 @@ header nav li a {
     margin: 0 auto;
 }
 
+#about img {
+    width: 50%;
+    margin-right: 100px;
+}
+
 header .container,
 section .container { 
     display: flex;
@@ -48,17 +55,9 @@ section .container {
     justify-content: space-between;
 }
 
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
-}
 
 section .container {
-    align-items: flex-start;
+    align-items:flex-start;
 }
 
 section {
@@ -70,17 +69,19 @@ section h2 {
     margin-bottom: 16px;
 }
 
+section h4 { 
+    margin-bottom: 16px;
+    font-weight:bold;
+}
+
 section {
-    color: #182C61
+    color: #3d39be;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
-    margin-right: 32px;
-}
 
 .social-links img{
     height: 24px;
@@ -96,13 +97,17 @@ section p {
 }
 
 #contact .container {
-    display: block;
+    display:block;
+    justify-content:space-between;
+    width: 1100px;
+    
 }
 
 .contact-methods {
     display: flex;
     justify-content: space-between;
 }
+
 
 form input,
 form textarea,
@@ -123,22 +128,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #3d39be;
     color:#fff;
     border: none;
     cursor: pointer;
     }
 
 form button:hover {
-    background-color: #334c90;
+    background-color: #6763ef;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182C61;
+    outline-color: #3d39be;
 }
 
 footer {
-    background-color: #182C61;
-    color:#ecf0f1;
+    background-color: #f6f641e4;
+    color:#3d39be;
     padding: 16px 0;
 }
